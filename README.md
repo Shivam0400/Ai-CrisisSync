@@ -1,5 +1,5 @@
 # 🚨 AI CrisisSync India: Rapid Emergency Response
-### *Google Solution Challenge 2026 India Hackathon Entry*
+### *Google Solution Challenge 2026 India*
 
 [![UN SDG - Good Health & Well-being](https://img.shields.io/badge/UN_SDG-3_Good_Health-E5243B?style=for-the-badge)](https://sdgs.un.org/goals/goal3)
 [![UN SDG - Sustainable Cities](https://img.shields.io/badge/UN_SDG-11_Sustainable_Cities-F99D1C?style=for-the-badge)](https://sdgs.un.org/goals/goal11)
