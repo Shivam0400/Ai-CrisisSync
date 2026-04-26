@@ -120,6 +120,32 @@ const AboutProject = () => {
             </div>
           </motion.section>
 
+          {/* Meet the Team */}
+          <motion.section variants={itemVariants} className="space-y-10">
+            <div className="text-center">
+              <h2 className="text-3xl font-bold mb-4">Meet Team Alpha Coderss</h2>
+              <div className="h-1 w-20 bg-emerald-500 mx-auto rounded-full"></div>
+            </div>
+            <div className="grid md:grid-cols-2 gap-8 max-w-3xl mx-auto">
+              <div className="p-8 bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-3xl text-center space-y-4 hover:border-orange-500/50 transition-all shadow-lg">
+                 <div className="h-20 w-20 bg-gradient-to-br from-orange-500 to-orange-600 rounded-2xl mx-auto flex items-center justify-center text-white text-3xl font-bold shadow-lg">S</div>
+                 <div>
+                    <h4 className="text-xl font-bold">Shivam</h4>
+                    <p className="text-orange-500 font-medium text-sm">Project Lead & Lead Developer</p>
+                 </div>
+                 <p className="text-slate-500 dark:text-slate-400 text-sm">Architected the core synchronization engine and the high-fidelity operations dashboard.</p>
+              </div>
+              <div className="p-8 bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-3xl text-center space-y-4 hover:border-emerald-500/50 transition-all shadow-lg">
+                 <div className="h-20 w-20 bg-gradient-to-br from-emerald-500 to-emerald-600 rounded-2xl mx-auto flex items-center justify-center text-white text-3xl font-bold shadow-lg">SK</div>
+                 <div>
+                    <h4 className="text-xl font-bold">Shantanu Kumar</h4>
+                    <p className="text-emerald-500 font-medium text-sm">Content Researcher & Documentation</p>
+                 </div>
+                 <p className="text-slate-500 dark:text-slate-400 text-sm">Spearheaded the research on crisis protocols and crafted the technical documentation & presentation.</p>
+              </div>
+            </div>
+          </motion.section>
+
           {/* Technical Stack */}
           <motion.section variants={itemVariants} className="text-center p-12 bg-slate-900 text-white rounded-[3rem] shadow-2xl relative overflow-hidden">
             <div className="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/carbon-fibre.png')] opacity-10"></div>

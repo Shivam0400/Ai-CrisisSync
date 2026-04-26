@@ -85,8 +85,9 @@ The system doesn't just track responders; it **synchronizes** them. Using proxim
 ---
 
 ## 👥 Meet Team Alpha Coderss
-We are a team of developers committed to building technology that saves lives. 
-- **Lead Developer**: Shivam
+We are a team of developers and researchers committed to building technology that saves lives. 
+- **Shivam**: Project Lead & Full Stack Developer
+- **Shantanu Kumar**: Content Researcher & Documentation Lead
 - **Vision**: To make every building in India "Crisis-Ready" by 2030.
 
 ---
