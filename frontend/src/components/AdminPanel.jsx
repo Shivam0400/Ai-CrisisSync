@@ -32,7 +32,7 @@ function AdminPanel({ locations }) {
 
     setIsSubmitting(true);
     try {
-      const res = await fetch('http://localhost:3001/api/responders', {
+      const res = await fetch('/api/responders', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(formData)

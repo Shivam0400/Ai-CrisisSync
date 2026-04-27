@@ -82,7 +82,7 @@ function App() {
     let interval;
     if (isPolling) {
       interval = setInterval(() => {
-        fetch('http://localhost:3001/api/status')
+        fetch('/api/status')
           .then(res => res.json())
           .then(json => setData(json))
           .catch(err => console.error('Failed to fetch status:', err));
@@ -93,7 +93,7 @@ function App() {
 
   // Initial fetch
   useEffect(() => {
-    fetch('http://localhost:3001/api/status')
+    fetch('/api/status')
       .then(res => res.json())
       .then(json => setData(json))
       .catch(err => console.error(err));

@@ -22,7 +22,7 @@ function SimulationsView({ incidents }) {
 
     try {
       addLog(`Transmitting payload to core server...`, 'info');
-      const res = await fetch('http://localhost:3001/api/incidents', {
+      const res = await fetch('/api/incidents', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ type, location, affected, notes: 'Automated Simulation Drill' })
