@@ -126,11 +126,11 @@ const AboutProject = () => {
               <h2 className="text-3xl font-bold mb-4">Meet Team Alpha Coderss</h2>
               <div className="h-1 w-20 bg-emerald-500 mx-auto rounded-full"></div>
             </div>
-            <div className="grid md:grid-cols-2 gap-8 max-w-3xl mx-auto">
+            <div className="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
               <div className="p-8 bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-3xl text-center space-y-4 hover:border-orange-500/50 transition-all shadow-lg">
                  <div className="h-20 w-20 bg-gradient-to-br from-orange-500 to-orange-600 rounded-2xl mx-auto flex items-center justify-center text-white text-3xl font-bold shadow-lg">S</div>
                  <div>
-                    <h4 className="text-xl font-bold">Shivam</h4>
+                    <h4 className="text-xl font-bold">Shivam Sony</h4>
                     <p className="text-orange-500 font-medium text-sm">Project Lead & Lead Developer</p>
                  </div>
                  <p className="text-slate-500 dark:text-slate-400 text-sm">Architected the core synchronization engine and the high-fidelity operations dashboard.</p>
@@ -142,6 +142,14 @@ const AboutProject = () => {
                     <p className="text-emerald-500 font-medium text-sm">Content Researcher & Documentation</p>
                  </div>
                  <p className="text-slate-500 dark:text-slate-400 text-sm">Spearheaded the research on crisis protocols and crafted the technical documentation & presentation.</p>
+              </div>
+              <div className="p-8 bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-3xl text-center space-y-4 hover:border-blue-500/50 transition-all shadow-lg">
+                 <div className="h-20 w-20 bg-gradient-to-br from-blue-500 to-blue-600 rounded-2xl mx-auto flex items-center justify-center text-white text-3xl font-bold shadow-lg">AK</div>
+                 <div>
+                    <h4 className="text-xl font-bold">Ashish Kumar</h4>
+                    <p className="text-blue-500 font-medium text-sm">Data Contributor</p>
+                 </div>
+                 <p className="text-slate-500 dark:text-slate-400 text-sm">Supported in providing the essential data streams and geographic information for the project.</p>
               </div>
             </div>
           </motion.section>
@@ -167,7 +175,7 @@ const AboutProject = () => {
       <footer className="mt-20 border-t border-slate-200 dark:border-slate-800 py-12 px-6 bg-white dark:bg-slate-950">
         <div className="max-w-5xl mx-auto flex flex-col md:flex-row justify-between items-center gap-6">
           <div className="flex items-center gap-3">
-             <div className="h-8 w-8 bg-orange-500 rounded-lg flex items-center justify-center text-white font-bold">C</div>
+             <img src="/favicon.png" alt="CrisisSync Logo" className="h-10 w-10 rounded-xl shadow-lg border border-slate-200 dark:border-slate-800" />
              <span className="font-bold tracking-wider uppercase text-sm">CrisisSync India</span>
           </div>
           <p className="text-slate-500 dark:text-slate-400 text-sm">

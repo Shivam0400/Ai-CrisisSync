@@ -114,8 +114,8 @@ function App() {
 
           {/* Sidebar Navigation */}
           <aside className="w-full md:w-20 lg:w-64 border-t md:border-t-0 md:border-r border-slate-200 dark:border-slate-800 bg-white/90 dark:bg-slate-900/90 md:bg-white/50 md:dark:bg-slate-900/50 flex flex-row md:flex-col items-center lg:items-start p-2 md:p-4 shrink-0 transition-all duration-300 backdrop-blur-md z-50 order-last md:order-first justify-around md:justify-start pb-4 md:pb-4 neon-border">
-            <div className="hidden md:flex items-center gap-3 mb-12 text-orange-500 dark:text-orange-400">
-              <Activity size={32} className="shrink-0 neon-text" />
+            <div className="hidden md:flex items-center gap-3 mb-12">
+              <img src="/favicon.png" alt="CrisisSync India Logo" className="h-10 w-10 shrink-0 drop-shadow-[0_0_12px_rgba(249,115,22,0.4)] object-contain" />
               <h1 className="text-xl font-bold tracking-wider hidden lg:block uppercase bg-clip-text text-transparent bg-gradient-to-r from-orange-500 via-slate-800 to-emerald-600 dark:from-orange-400 dark:via-slate-200 dark:to-green-500 drop-shadow-[0_0_10px_rgba(249,115,22,0.3)] dark:drop-shadow-[0_0_10px_rgba(249,115,22,0.5)]">
                 CrisisSync India
               </h1>
